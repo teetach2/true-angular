@@ -1,0 +1,18 @@
+<table>
+    <thead>
+        <th>User Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Sex</th>
+        <th>Reg Date</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of data">
+            <td>{{ item.id }}</td>
+            <td>{{ item.firstName }} {{ item.lastName }}</td>
+            <td>{{ item.age }} </td>
+            <td>{{ item.sex }} </td>
+            <td>{{ item.regDateTime }} </td>
+        </tr>
+    </tbody>
+</table>
